@@ -8,13 +8,17 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ImagenKilPage } from '../pages/imagen-kil/imagen-kil';
 import { Imagen2Page } from '../pages/imagen2/imagen2';
+import { Imagen3Page } from '../pages/imagen3/imagen3';
+import { Imagen4Page } from '../pages/imagen4/imagen4';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ImagenKilPage,
-    Imagen2Page
+    Imagen2Page,
+    Imagen3Page,
+    Imagen4Page
   ],
   imports: [
     BrowserModule,
@@ -25,7 +29,9 @@ import { Imagen2Page } from '../pages/imagen2/imagen2';
     MyApp,
     HomePage,
     ImagenKilPage,
-    Imagen2Page
+    Imagen2Page,
+    Imagen3Page,
+    Imagen4Page
   ],
   providers: [
     StatusBar,
